@@ -6,6 +6,7 @@
 		],
 		"description": "Name Stealing List",
 		"title": "Name Stealing Characters"
+		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.namestealer.json"
 	},
 	"rules": [
 		{

@@ -5,8 +5,7 @@
 			"moeb"
 		],
 		"description": "Name Stealing List",
-		"title": "Name Stealing Characters",
-		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.namestealer.json"
+		"title": "Name Stealing Characters"
 	},
 	"rules": [
 		{
@@ -20,7 +19,7 @@
 				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
-					"mode": "ends_with",
+					"mode": "contains",
 					"patterns": [
 						"\u0e4a"
 					]

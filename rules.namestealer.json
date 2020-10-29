@@ -4,8 +4,9 @@
 		"authors": [
 			"moeb"
 		],
-		"description": "Name Stealing List",
-		"title": "Name Stealing Characters"
+		"description": "Name/Avatar matching",
+		"title": "Generic Rules",
+		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.namestealer.json"
 	},
 	"rules": [
 		{
@@ -14,14 +15,22 @@
 					"cheater"
 				]
 			},
-			"description": "Name Stealer",
-			"triggers": {		
+			"description": "generic rules",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
 				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"\u0e4a"
+						"matchroom.live/snooker",
+						"braaaap \\d+",
+						"swonk bot \\d+",
+						"[VALVE]Niggerkiller"
 					]
 				}
 			}

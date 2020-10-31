@@ -30,9 +30,7 @@
 						"matchroom.live/snooker",
 						"braaaap \\d+",
 						"swonk bot \\d+",
-						"[VALVE]Niggerkiller",
-						"\u0e4a",
-						"\u202c"
+						"[VALVE]Niggerkiller"
 					]
 				},
 				"mode": "match_any",

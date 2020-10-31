@@ -27,7 +27,6 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"matchroom.live/snooker",
 						"braaaap \\d+",
 						"swonk bot \\d+",
 						"[VALVE]Niggerkiller"

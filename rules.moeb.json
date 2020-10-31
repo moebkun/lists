@@ -1,11 +1,12 @@
 {
 	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
-	"file_info": {
+		"file_info": {
 		"authors": [
 			"moeb"
 		],
 		"description": "Name/Avatar matching",
 		"title": "Generic Rules"
+		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.moeb.json"
 	},
 	"rules": [
 		{
@@ -16,7 +17,6 @@
 			},
 			"description": "generic naming rule",
 			"triggers": {
-				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
@@ -27,10 +27,16 @@
 						"[VALVE]Niggerkiller"
 					]
 				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
 			},
 			"description": "Invisible Character",
 			"triggers": {
-				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
@@ -39,14 +45,21 @@
 						"\u202c"
 					]
 				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
 			},
-			"description": "Avatar Matching",
+			"description": "Avatar match",
 			"triggers": {
 				"avatar_match": [
 					{
-					"avatar_hash": ""
+						"avatar_hash": ""
 					}
-				]		
+				]
 			}
 		}
 	]

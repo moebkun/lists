@@ -34,6 +34,15 @@
 						"\u0e4a",
 						"\u202c"
 					]
+				},
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"\u0e4a",
+						"\u202c"
+					]
 				}
 			}
 		}

@@ -17,6 +17,7 @@
 			},
 			"description": "generic naming rule",
 			"triggers": {
+				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
@@ -37,6 +38,7 @@
 			},
 			"description": "Invisible Character",
 			"triggers": {
+				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",

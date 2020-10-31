@@ -15,7 +15,7 @@
 					"cheater"
 				]
 			},
-			"description": "generic rules",
+			"description": "[moeb]Name match",
 			"triggers": {
 				"avatar_match": [
 					{

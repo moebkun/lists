@@ -6,6 +6,7 @@
 		],
 		"description": "Name/Avatar matching",
 		"title": "Generic Rules"
+		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.namestealer.json"
 	},
 	"rules": [
 		{

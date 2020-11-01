@@ -4,8 +4,8 @@
 		"authors": [
 			"moeb"
 		],
-		"description": "The Official rule list for TF2 Bot Detector",
-		"title": "Official rule list",
+		"description": "This is my test version for the rule-list",
+		"title": "Moeb's test ruleset",
 		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.moeb.json"
 	},
 	"rules": [
@@ -15,7 +15,7 @@
 					"cheater"
 				]
 			},
-			"description": "[TF2BD]Name match",
+			"description": "[BETA]Name match",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -42,7 +42,7 @@
 					"cheater"
 				]
 			},
-			"description": "[TF2BD]Invisible Character/namestealer",
+			"description": "[BETA]Invisible Character/namestealer",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -54,8 +54,17 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"\u0e4a",
-						"\u202c"
+						"\u205f",
+						"\u200f",
+						"\u200e",
+						"\u200d",
+						"\u200c",
+						"\u200b",
+						"\u2060",
+						"\u202c",
+						"\u202d",
+						"\ufeff",
+						"\u0e4a"
 					]
 				}
 			}
@@ -66,7 +75,7 @@
 					"cheater"
 				]
 			},
-			"description": "[TF2BD]Avatar match",
+			"description": "[BETA]Avatar match",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -81,7 +90,7 @@
 					"cheater"
 				]
 			},
-			"description": "[TF2BD]Malicious chat message detected",
+			"description": "[BETA]Malicious chat message detected",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -106,7 +115,7 @@
 					"racist"
 				]
 			},
-			"description": "[TF2BD]Bigot detected",
+			"description": "[BETA]Bigot detected",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -115,9 +124,18 @@
 				],
 				"chatmsg_text_match": {
 					"case_sensitive": false,
-					"mode": "word",
+					"mode": "regex",
 					"patterns": [
-						"nigger",
+						"\\w*N󠀡󠀡IGGE󠀡󠀡R\\w*",
+						"\\w*ɴɪɢɢᴇʀ\\w*",
+						"\\w*nіggеr\\w*",
+						"\\w*NÍGGER\\w*",
+						"\\w*n\\\\|gger\\w*",
+						"\\w*niggеr\\w*",
+						"\\w*N1GG3R\\w*",
+						"\\w*nigger\\w*",
+						"\\w*nigg4\\w*",
+						"\\w*niggz\\w*",
 						"niggers"
 					]
 				},

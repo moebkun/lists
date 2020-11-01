@@ -4,7 +4,7 @@
 		"authors": [
 			"moeb"
 		],
-		"description": "Name/Avatar matching",
+		"description": "Rule List",
 		"title": "Generic Rules",
 		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.moeb.json"
 	},
@@ -33,8 +33,71 @@
 						"[VALVE]Niggerkiller",
 						"\u0e4a",
 						"\u202c"
-						]
+					]
 				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[moeb]Avatar match",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				]
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[moeb]Malicious chat message detected",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "word",
+					"patterns": [
+						"\n",
+						"\r\n",
+						"\r"
+					]
+				},
+				"mode": "match_any"
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"racist"
+				]
+			},
+			"description": "[moeb]Bigot detected",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "word",
+					"patterns": [
+						"nigger"
+					]
+				},
+				"mode": "match_any"
 			}
 		}
 	]

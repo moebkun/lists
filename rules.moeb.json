@@ -31,6 +31,29 @@
 						"braaaap \\d+",
 						"swonk bot \\d+",
 						"[VALVE]Niggerkiller",
+						"[VALVE] Twilight Sparkle"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[moeb]Invisible Character/namestealer",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
+				"mode": "match_any",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
 						"\u0e4a",
 						"\u202c"
 					]
@@ -94,7 +117,8 @@
 					"case_sensitive": false,
 					"mode": "word",
 					"patterns": [
-						"nigger"
+						"nigger",
+						"niggers"
 					]
 				},
 				"mode": "match_any"

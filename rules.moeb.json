@@ -4,8 +4,8 @@
 		"authors": [
 			"moeb"
 		],
-		"description": "Rule List",
-		"title": "Generic Rules",
+		"description": "The Official rule list for TF2 Bot Detector",
+		"title": "Official rule list"
 		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.moeb.json"
 	},
 	"rules": [
@@ -15,7 +15,7 @@
 					"cheater"
 				]
 			},
-			"description": "[moeb]Name match",
+			"description": "[TF2BD]Name match",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -42,7 +42,7 @@
 					"cheater"
 				]
 			},
-			"description": "[moeb]Invisible Character/namestealer",
+			"description": "[TF2BD]Invisible Character/namestealer",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -66,7 +66,7 @@
 					"cheater"
 				]
 			},
-			"description": "[moeb]Avatar match",
+			"description": "[TF2BD]Avatar match",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -81,7 +81,7 @@
 					"cheater"
 				]
 			},
-			"description": "[moeb]Malicious chat message detected",
+			"description": "[TF2BD]Malicious chat message detected",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -106,7 +106,7 @@
 					"racist"
 				]
 			},
-			"description": "[moeb]Bigot detected",
+			"description": "[TF2BD]Bigot detected",
 			"triggers": {
 				"avatar_match": [
 					{

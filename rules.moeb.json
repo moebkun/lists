@@ -5,7 +5,7 @@
 			"moeb"
 		],
 		"description": "The Official rule list for TF2 Bot Detector",
-		"title": "Official rule list"
+		"title": "Official rule list",
 		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.moeb.json"
 	},
 	"rules": [

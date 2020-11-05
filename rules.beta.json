@@ -67,9 +67,7 @@
 			"triggers": {
 				"avatar_match": [
 					{
-						"avatar_hash": 
-						"06f5f3319f23911d598a0eaaa0267ce6ebac10f6",
-						"a18eb153ec2b0a40d5522fac8e5a8a525fd5a7a4"
+						"avatar_hash": "a18eb153ec2b0a40d5522fac8e5a8a525fd5a7a4"
 					}
 				]
 			}

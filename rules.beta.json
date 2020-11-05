@@ -6,7 +6,7 @@
 		],
 		"description": "This is my test version for the rule-list",
 		"title": "Moeb's test ruleset",
-		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.beta.bjson"
+		"update_url": "https://raw.githubusercontent.com/moebkun/lists/main/rules.beta.json"
 	},
 	"rules": [
 		{
@@ -17,12 +17,6 @@
 			},
 			"description": "[BETA]Name match",
 			"triggers": {
-				"avatar_match": [
-					{
-						"avatar_hash": ""
-					}
-				],
-				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
@@ -44,12 +38,6 @@
 			},
 			"description": "[BETA]Invisible Character/namestealer",
 			"triggers": {
-				"avatar_match": [
-					{
-						"avatar_hash": ""
-					}
-				],
-				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
@@ -79,7 +67,9 @@
 			"triggers": {
 				"avatar_match": [
 					{
-						"avatar_hash": "06f5f3319f23911d598a0eaaa0267ce6ebac10f6"
+						"avatar_hash": 
+						"06f5f3319f23911d598a0eaaa0267ce6ebac10f6",
+						"a18eb153ec2b0a40d5522fac8e5a8a525fd5a7a4"
 					}
 				]
 			}
@@ -92,11 +82,6 @@
 			},
 			"description": "[BETA]Malicious chat message detected",
 			"triggers": {
-				"avatar_match": [
-					{
-						"avatar_hash": ""
-					}
-				],
 				"chatmsg_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
@@ -105,8 +90,7 @@
 						"\r\n",
 						"\r"
 					]
-				},
-				"mode": "match_any"
+				}
 			}
 		},
 		{
@@ -115,7 +99,7 @@
 					"racist"
 				]
 			},
-			"description": "[BETA]Bigot detected",
+			"description": "[TF2BD]Bigot detected",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -126,12 +110,12 @@
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
-						"\\w*N󠀡󠀡IGGE󠀡󠀡R\\w*",
-						"\\w*ɴɪɢɢᴇʀ\\w*",
-						"\\w*nіggеr\\w*",
-						"\\w*NÍGGER\\w*",
+						"\\w*N\udb40\udc21\udb40\udc21IGGE\udb40\udc21\udb40\udc21R\\w*",
+						"\\w*\u0274\u026a\u0262\u0262\u1d07\u0280\\w*",
+						"\\w*n\u0456gg\u0435r\\w*",
+						"\\w*N\u00cdGGER\\w*",
 						"\\w*n\\\\|gger\\w*",
-						"\\w*niggеr\\w*",
+						"\\w*nigg\u0435r\\w*",
 						"\\w*N1GG3R\\w*",
 						"\\w*nigger\\w*",
 						"\\w*nigg4\\w*",

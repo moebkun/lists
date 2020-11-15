@@ -17,7 +17,6 @@
 			},
 			"description": "[BETA]Name match",
 			"triggers": {
-				"avatar_match": [
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "regex",
@@ -30,7 +29,8 @@
 					]
 				}
 			}
-		},
+		}
+			,
 		{
 			"actions": {
 				"mark": [

@@ -17,11 +17,16 @@
 			},
 			"description": "[BETA]Name match",
 			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
+				"mode":"match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"matchroom.live/snooker",
 						"braaaap \\d+",
 						"swonk bot \\d+",
 						"[VALVE]Niggerkiller",

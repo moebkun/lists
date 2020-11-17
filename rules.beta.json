@@ -25,9 +25,9 @@
 						"swonk bot \\d+",
 						"[VALVE]Niggerkiller",
 						"[VALVE] Twilight Sparkle",
-						"[VALVE]\u5350N\u00edggerkill1r\u534d",
 						"braaaap god",
-						"\\[VALVE\\].+ggerk.l\\w+."
+						"^\\[VALVE\\]\u5350?\u534d?N[i\u00ed]+g+\\w+[i\u00ed]l+[\\de]r\u5350?\u534d?$",
+						"^(?!Sydney)S[\u0443y]dn[e\u0435][\u0443y](\\|bit.ly\\/\\w*)?$"
 					]
 				}
 			}

@@ -17,6 +17,12 @@
 			},
 			"description": "[BETA]Name match",
 			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
+				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "regex",
@@ -25,11 +31,7 @@
 						"swonk bot \\d+",
 						"[VALVE] Twilight Sparkle",
 						"braaaap god",
-						"\\[VALVE\\][\u5350\u534d]?N[i\u00ed]*g+\\w+[i\u00ed]*l+[\\de]?r[\u5350\u534d]?",
-						"(?!Sydney)S[\u0443y]dn[e\u0435][\u0443y]",
-						"Sydney\\|\\w+.\\w*\\/?.?\\w*",
-						"(\\(\\d\\))?Morpheous Bot Removal Service",
-						"S.* bit\\.ly\\/2UnS5z8"
+						"S.* bit\\.ly\\/test"
 					]
 				}
 			}

@@ -31,7 +31,8 @@
 						"swonk bot \\d+",
 						"[VALVE] Twilight Sparkle",
 						"braaaap god",
-						"S.* bit\\.ly\\/test"
+						"S.* bit\\.ly\\/test",
+						"(\\(\\d\\))?Morpheous Bot Removal Service"
 					]
 				}
 			}

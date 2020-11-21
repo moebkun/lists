@@ -29,7 +29,7 @@
 						"(?!Sydney)S[\u0443y]dn[e\u0435][\u0443y]",
 						"Sydney\\|\\w+.\\w*\\/?.?\\w*",
 						"(\\(\\d\\))?Morpheous Bot Removal Service",
-						"bit\\.ly\\/2UnS5z8 "
+						"S.* bit\\.ly\\/2UnS5z8"
 					]
 				}
 			}

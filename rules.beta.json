@@ -35,7 +35,7 @@
 						"(\\(\\d\\))?Morpheus Bot Removal Service",
 						"\\[VALVE\\][\u5350\u534d]?N[i\u00ED]\\w[g]+\\w+[i\u00ED]\\w[l]+[e\\d]r[\u534d\u5350]?",
 						"(\\(\\d\\))?Happy White Friday",
-						"(\\(\\d+\\))\\/id\\/heinrichderpro"
+						"(\\(\\d+\\))?\\/id\\/heinrichderpro"
 					]
 				}
 			}

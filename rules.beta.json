@@ -15,28 +15,36 @@
 					"cheater"
 				]
 			},
-			"description": "[BETA]Name match",
+			"description": "[BETA]Regex Name match",
 			"triggers": {
-				"avatar_match": [
-					{
-						"avatar_hash": ""
-					}
-				],
-				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
 						"braaaap \\d+",
 						"swonk bot \\d+",
-						"[VALVE] Twilight Sparkle",
-						"braaaap god",
 						"S.* bit\\.ly\\/2UnS5z8",
 						"(\\(\\d\\))?Morpheus Bot Removal Service",
-						"\\[VALVE\\][\u5350\u534d]?N[i\u00ED]\\w[g]+\\w+[i\u00ED]\\w[l]+[e\\d]r[\u534d\u5350]?",
-						"(\\(\\d\\))?Happy White Friday",
+						"\\[VALVE\\][\u5350\u534d]?N[i\u00ed]\\w[g]+\\w+[i\u00ed]\\w[l]+[e\\d]r[\u534d\u5350]?",
 						"(\\(\\d+\\))?\\/id\\/heinrichderpro",
-						"(\\(\\d+\\))?\\[VALVE\\]Twilight Sparkle\n"
+						"(\\(\\d+\\))?\\[VALVE\\]Twilight Sparkle(\n)?"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Full Name Match",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"braaaap god"
 					]
 				}
 			}
@@ -95,9 +103,6 @@
 					},
 					{
 						"avatar_hash": "d6faa3a8c195de2e7fb094ab640c12d6f12b8c72"
-					},
-					{
-						"avatar_hash": "440f005811362360c6a07e03b2a6907adbb7d53b"
 					}
 				]
 			}

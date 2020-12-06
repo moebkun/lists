@@ -45,8 +45,7 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"braaaap god",
-						"shoppy.gg"
+						"braaaap god"
 					]
 				}
 			}

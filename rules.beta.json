@@ -32,7 +32,6 @@
 						"(\\(\\d+\\))?Festive Hitman",
 						"(\\(\\d+\\))?cheemsburger gaming",
 						"(\\(\\d+\\))?blu ((red)|(me))"
-						
 					]
 				}
 			}
@@ -50,6 +49,29 @@
 					"mode": "contains",
 					"patterns": [
 						"braaaap god"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Name+Avatar match",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "7a6e1f6ffeea6215b18b27a5b18e4b7d910a06f7"
+					}
+				],
+				"mode": "match_all",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "regex",
+					"patterns": [
+						"(\\(\\d+\\))?cory"
 					]
 				}
 			}
@@ -84,7 +106,7 @@
 						"\ufeff",
 						"\u0e4a",
 						"\u0e38",
-						"\u202C",
+						"\u202c",
 						"\n"
 					]
 				}
@@ -112,10 +134,7 @@
 						"avatar_hash": "d6faa3a8c195de2e7fb094ab640c12d6f12b8c72"
 					},
 					{
-						"avatar_hash":"440f005811362360c6a07e03b2a6907adbb7d53b"
-					},
-					{
-						"avatar_hash":"7a6e1f6ffeea6215b18b27a5b18e4b7d910a06f7"
+						"avatar_hash": "440f005811362360c6a07e03b2a6907adbb7d53b"
 					}
 				]
 			}

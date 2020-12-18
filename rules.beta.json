@@ -31,7 +31,10 @@
 						"(\\(\\d+\\))?shoppy\\.gg\\/@d3fc0n6",
 						"(\\(\\d+\\))?Festive Hitman",
 						"(\\(\\d+\\))?cheemsburger gaming",
-						"(\\(\\d+\\))?blu ((red)|(me))"
+						"(\\(\\d+\\))?blu ((red)|(me))",
+						"(\\(\\d+\\))?YOU'VE BEEN LOVE ROLLED!!!"
+						
+						
 					]
 				}
 			}
@@ -48,7 +51,8 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"braaaap god"
+						"braaaap god",
+						"Níggerkiller as"
 					]
 				}
 			}

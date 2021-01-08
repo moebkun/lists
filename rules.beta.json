@@ -30,7 +30,6 @@
 						"(\\(\\d+\\))?\\[VALVE\\]Twilight Sparkle(\n)?",
 						"(\\(\\d+\\))?shoppy\\.gg\\/@d3fc0n6",
 						"(\\(\\d+\\))?Festive Hitman",
-						"(\\(\\d+\\))?cheemsburger gaming",
 						"(\\(\\d+\\))?blu ((red)|(me))",
 						"(\\(\\d+\\))?YOU'VE BEEN LOVE ROLLED!!!",
 						"(\\(\\d+\\))?Bottle Goon",
@@ -73,14 +72,19 @@
 				"avatar_match": [
 					{
 						"avatar_hash": "7a6e1f6ffeea6215b18b27a5b18e4b7d910a06f7"
+					},
+						{
+						"avatar_hash": "f8b383957010ce5d8b893dc45c272de15e3cf537"
 					}
+					
 				],
 				"mode": "match_all",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
-						"(\\(\\d+\\))?cory"
+						"(\\(\\d+\\))?cory",
+						"sniper gaming"
 					]
 				}
 			}

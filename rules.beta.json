@@ -96,7 +96,7 @@
 		},
 		{
 			"actions": {
-				"mark": [
+				"transient_mark": [
 					"cheater"
 				]
 			},
@@ -122,6 +122,7 @@
 						"\u202c",
 						"\u202d",
 						"\ufeff",
+						"\u0e4a",
 						"\n"
 					]
 				}

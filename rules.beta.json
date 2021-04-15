@@ -50,6 +50,25 @@
 				}
 			}
 		},
+		"rules": [
+		{
+			"actions": {
+				"transient_mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Known Cheaters",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"SniperMainsUnited"
+						
+					]
+				}
+			}
+		},
 		{
 			"actions": {
 				"mark": [

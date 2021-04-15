@@ -50,7 +50,6 @@
 				}
 			}
 		},
-		"rules": [
 		{
 			"actions": {
 				"transient_mark": [

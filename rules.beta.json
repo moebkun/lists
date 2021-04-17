@@ -46,7 +46,8 @@
 						"(\\(\\d+\\))?your medical license",
 						"(\\(\\d+\\))?kurumimink",
 						"(\\(\\d+\\))?[VALVE]WhiteKiller",
-						"(\\(\\d+\\))?discord\\.gg\\/9Ukuw9V"
+						"(\\(\\d+\\))?discord\\.gg\\/9Ukuw9V",
+						"braaaap \d+"
 						
 					]
 				}

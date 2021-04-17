@@ -47,7 +47,8 @@
 						"(\\(\\d+\\))?kurumimink",
 						"(\\(\\d+\\))?[VALVE]WhiteKiller",
 						"(\\(\\d+\\))?discord\\.gg\\/9Ukuw9V",
-						"(\\(\\d+\\))?haunted\\.church"
+						"(\\(\\d+\\))?haunted\\.church",
+						".*SMU\s\w+.*"
 						
 					]
 				}

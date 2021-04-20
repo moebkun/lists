@@ -50,7 +50,8 @@
 						"(\\(\\d+\\))?haunted\\.church",
 						".*SMU.*\\w+.*",
 						"(\\(\\d+\\))?\\[VAC\\] OneTrick",
-						"(\\(\\d+\\))?Richard\\sStallman"
+						"(\\(\\d+\\))?Richard\\sStallman",
+						"(\\(\\d+\\))?\\w+ gaming \\(not a bot\\)
 						
 					]
 				}

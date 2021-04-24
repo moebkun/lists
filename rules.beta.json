@@ -107,8 +107,6 @@
 					"case_sensitive": false,
 					"mode": "regex",
 					"patterns": [
-						"(\\(\\d+\\))?cory",
-						"sniper gaming"
 					]
 				}
 			}

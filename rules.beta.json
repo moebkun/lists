@@ -156,24 +156,6 @@
 			"description": "[BETA]Avatar match",
 			"triggers": {
 				"avatar_match": [
-					{
-						"avatar_hash": "06f5f3319f23911d598a0eaaa0267ce6ebac10f6"
-					},
-					{
-						"avatar_hash": "a18eb153ec2b0a40d5522fac8e5a8a525fd5a7a4"
-					},
-					{
-						"avatar_hash": "4f0a5c83b875f415e1a82dfc31d99193f7ae2f96"
-					},
-					{
-						"avatar_hash": "d6faa3a8c195de2e7fb094ab640c12d6f12b8c72"
-					},
-					{
-						"avatar_hash": "440f005811362360c6a07e03b2a6907adbb7d53b"
-					},
-					{
-						"avatar_hash": "7a6e1f6ffeea6215b18b27a5b18e4b7d910a06f7"
-					}
 				]
 			}
 		},

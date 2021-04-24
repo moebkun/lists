@@ -48,7 +48,6 @@
 						"(\\(\\d+\\))?[VALVE]WhiteKiller",
 						"(\\(\\d+\\))?discord\\.gg\\/9Ukuw9V",
 						"(\\(\\d+\\))?haunted\\.church",
-						".*SMU.*\\w+.*",
 						"(\\(\\d+\\))?\\[VAC\\] OneTrick",
 						"(\\(\\d+\\))?Richard\\sStallman(\\s)?",
 						"(\\(\\d+\\))?\\w+ gaming \\(not a bot\\)"

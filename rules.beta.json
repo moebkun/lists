@@ -247,7 +247,7 @@
 			},
 			"description": "[BETA]Temporary Damagecontroll fix",
 			"triggers": {
-				"chatmsg_text_match": {
+				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [

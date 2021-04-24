@@ -100,18 +100,7 @@
 			},
 			"description": "[BETA]Name+Avatar match",
 			"triggers": {
-				"avatar_match": [
-					{
-						"avatar_hash": "7a6e1f6ffeea6215b18b27a5b18e4b7d910a06f7"
-					},
-					{
-						"avatar_hash": "f8b383957010ce5d8b893dc45c272de15e3cf537"
-					},
-					{
-						"avatar_hash": "55862b039ef094ad6d2f876df8dcfedf8b7238b5"
-					}
-					
-					
+				"avatar_match": [	
 				],
 				"mode": "match_all",
 				"username_text_match": {

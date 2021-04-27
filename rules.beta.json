@@ -50,7 +50,8 @@
 						"(\\(\\d+\\))?haunted\\.church",
 						"(\\(\\d+\\))?\\[VAC\\] OneTrick",
 						"(\\(\\d+\\))?Richard\\sStallman(\\s)?",
-						"(\\(\\d+\\))?\\w+ gaming \\(not a bot\\)"
+						"(\\(\\d+\\))?\\w+ gaming \\(not a bot\\)",
+						"(\\(\\d+\\))?(NEW|JOIN)?\\s?ASSIT (TF2|- NEW CASUAL MATCHMAK.+)"
 						
 					]
 				}

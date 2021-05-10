@@ -43,7 +43,7 @@
 						"(\\(\\d+\\))?DoesHotter",
 						"(\\(\\d+\\))?www\\.titsassesandicks\\.com",
 						"(\\(\\d+\\))?Neil banging the tunes",
-						"(\\(\\d+\\))?your medical license",
+						"(\\(\\d+\\))?your medical license v2",
 						"(\\(\\d+\\))?kurumimink",
 						"(\\(\\d+\\))?[VALVE]WhiteKiller",
 						"(\\(\\d+\\))?discord\\.gg\\/9Ukuw9V",
@@ -51,7 +51,8 @@
 						"(\\(\\d+\\))?\\[VAC\\] OneTrick",
 						"(\\(\\d+\\))?Richard\\sStallman(\\s)?",
 						"(\\(\\d+\\))?\\w+ gaming \\(not a bot\\)",
-						"(\\(\\d+\\))?(NEW ASSIT TF2|ASSIT TF2|JOIN ASSIT TF2( TODAY)?|ASSIT - NEW CASUAL MATCH.+|assit:ru-matrix\\.org|ASSIT: ALL NEW MATCHMAKING|NO CHEATERS - ASSIT)"
+						"(\\(\\d+\\))?vk\\.com/warcrimer",
+						"(\\(\\d+\\))?(http\\:\\/\\/)?meowhook\\.club(\/)?"
 						
 					]
 				}
@@ -131,6 +132,7 @@
 					"mode": "contains",
 					"patterns": [
 						"\u205f",
+						"\u0e49",
 						"\u200f",
 						"\u200e",
 						"\u200d",

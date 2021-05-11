@@ -133,7 +133,6 @@
 					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
-						"\u0e31",
 						"\u205f",
 						"\u0e49",
 						"\u200f",

@@ -54,8 +54,7 @@
 						"(\\(\\d+\\))?\\w+ gaming \\(not a bot\\)",
 						"(\\(\\d+\\))?vk\\.com/warcrimer",
 						"(\\(\\d+\\))?(http\\:\\/\\/)?meowhook\\.club(\/)?",
-						"vk.com/thenosok",
-						"
+						"(\\(\\d+\\))?vk.com/thenosok"
 						
 					]
 				}

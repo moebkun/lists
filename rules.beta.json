@@ -55,7 +55,7 @@
 						"(\\(\\d+\\))?vk\\.com/warcrimer",
 						"(\\(\\d+\\))?(http\\:\\/\\/)?meowhook\\.club(\/)?",
 						"(\\(\\d+\\))?vk.com/thenosok",
-						"(\\(\\d+\\))?OM\w+GATRONIC"
+						"(\\(\\d+\\))?OM\\w+GATRONIC"
 						
 					]
 				}

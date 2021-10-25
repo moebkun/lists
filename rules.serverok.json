@@ -44,66 +44,7 @@
 					]
 				}
 			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "[BETA]Avatar match",
-			"triggers": {
-				"avatar_match": [
-				]
-			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "[BETA]Malicious chat message detected",
-			"triggers": {
-				"chatmsg_text_match": {
-					"case_sensitive": false,
-					"mode": "contains",
-					"patterns": [
-						"\n",
-						"\r\n",
-						"\r"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"racist"
-				]
-			},
-			"description": "[TF2BD]Bigot detected",
-			"triggers": {
-				"avatar_match": [
-					{
-						"avatar_hash": ""
-					}
-				],
-				"chatmsg_text_match": {
-					"case_sensitive": false,
-					"mode": "regex",
-					"patterns": [
-						"\\w*N\udb40\udc21\udb40\udc21IGGE\udb40\udc21\udb40\udc21R\\w*",
-						"\\w*\u0274\u026a\u0262\u0262\u1d07\u0280\\w*",
-						"\\w*n\u0456gg\u0435r\\w*",
-						"\\w*N\u00cdGGER\\w*",
-						"\\w*nigg\u0435r\\w*",
-						"\\w*N1GG3R\\w*",
-						"\\w*nigger\\w*",
-						"\\w*nigg4\\w*",
-						"\\w*niggz\\w*",
-						"niggers"
-					]
+		}
 				},
 				"mode": "match_any"
 			}

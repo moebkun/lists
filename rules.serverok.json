@@ -2,13 +2,115 @@
 	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
 	"file_info": {
 		"authors": [
-			"serverok"
+			"serverok",
+			"moeb"
 		],
 		"description": "Frequently updated name-based bot, known cheaters and extended racism rule-list",
-		"title": "serverok's rules maybe dk",
-		"update_url": "https://raw.githubusercontent.com/Server-ok/lists/main/rules.serverok.json"
+		"title": "moeb's ruleset for bots & known cheaters for TF2BD edited by serverok",
+		"update_url": "https://raw.githubusercontent.com/server-ok/lists/main/rules.serverok.json"
 	},
 	"rules": [
+		{
+			"actions": {
+				"transient_mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Regex Name match",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "regex",
+					"patterns": [
+						"braaaap \\d+",
+						"swonk bot \\d+",
+						"S.* bit\\.ly\\/2UnS5z8",
+						"(\\(\\d\\))?Morpheus Bot Removal Service",
+						"\\[VALVE\\]N[i\u00ed]\\w[g]+\\w+[i\u00ed]\\w[l]+[e\\d]r",
+						"(\\(\\d+\\))?\\/id\\/heinrichderpro",
+						"(\\(\\d+\\))?\\[VALVE\\]Twilight Sparkle(\n)?",
+						"(\\(\\d+\\))?shoppy\\.gg\\/@d3fc0n6",
+						"(\\(\\d+\\))?youtube\\.com/d3fc0n6",
+						"(\\(\\d+\\))?Festive Hitman",
+						"(\\(\\d+\\))?blu ((red)|(me))",
+						"(\\(\\d+\\))?YOU'VE BEEN LOVE ROLLED!!!",
+						"(\\(\\d+\\))?Bottle Goon",
+						"(\\(\\d+\\))?Osama bin laden",
+						"(\\(\\d+\\))?YOU'VE BEEN MARIO KARTED",
+						"(\\(\\d+\\))\\[VALVE\\]N.ggerk.ller",
+						"(\\(\\d+\\))?Twilight Sparkle is cute",
+						"(\\(\\d+\\))?CUMBOT.TF",
+						"(\\(\\d+\\))?vcaps bots",
+						"(\\(\\d+\\))?Youtube\\/HamGames",
+						"(\\(\\d+\\))?DoesHotter",
+						"(\\(\\d+\\))?www\\.titsassesandicks\\.com",
+						"(\\(\\d+\\))?Neil banging the tunes",
+						"(\\(\\d+\\))?your medical license v2",
+						"(\\(\\d+\\))?kurumimink",
+						"(\\(\\d+\\))?[VALVE]WhiteKiller",
+						"(\\(\\d+\\))?discord\\.gg\\/9Ukuw9V",
+						"(\\(\\d+\\))?haunted\\.church",
+						"(\\(\\d+\\))?\\[VAC\\] OneTrick",
+						"(\\(\\d+\\))?Richard\\sStallman(\\s)?",
+						"(\\(\\d+\\))?\\w+ gaming \\(not a bot\\)",
+						"(\\(\\d+\\))?vk\\.com/warcrimer",
+						"(\\(\\d+\\))?(http\\:\\/\\/)?meowhook\\.club(/)?",
+						"(\\(\\d+\\))?vk.com/thenosok",
+						"(\\(\\d+\\))?O.?M.?E.?G.?A.?T.?R.?O.?N.?I.?C.?"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"transient_mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Known Cheaters",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"SniperMainsUnited"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Full Name Match",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"braaaap god",
+						"N\u00edggerkiller as"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Name+Avatar match",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "regex",
+					"patterns": []
+				}
+			}
+		},
 		{
 			"actions": {
 				"transient_mark": [
@@ -44,7 +146,63 @@
 					]
 				}
 			}
-		}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Avatar match",
+			"triggers": null
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "[BETA]Malicious chat message detected",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"\n",
+						"\r\n",
+						"\r"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"racist"
+				]
+			},
+			"description": "[TF2BD]Bigot detected",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": ""
+					}
+				],
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "regex",
+					"patterns": [
+						"\\w*N\udb40\udc21\udb40\udc21IGGE\udb40\udc21\udb40\udc21R\\w*",
+						"\\w*\u0274\u026a\u0262\u0262\u1d07\u0280\\w*",
+						"\\w*n\u0456gg\u0435r\\w*",
+						"\\w*N\u00cdGGER\\w*",
+						"\\w*nigg\u0435r\\w*",
+						"\\w*N1GG3R\\w*",
+						"\\w*nigger\\w*",
+						"\\w*nigg4\\w*",
+						"\\w*niggz\\w*",
+						"niggers"
+					]
 				},
 				"mode": "match_any"
 			}
